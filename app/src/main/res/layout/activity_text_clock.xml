@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/time_clock">
+
+    <TextClock
+        android:id="@+id/textclock_real_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:format12Hour="yyyy-MM-dd HH:mm:ss"
+        android:format24Hour="yyyy-MM-dd HH:mm:ss"
+        android:paddingTop="160dp"
+        android:gravity="center"
+        android:textColor="@color/textview_8"
+        android:textSize="24sp" />
+
+    <UserDao.ClockView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textclock_real_time" />
+</RelativeLayout>

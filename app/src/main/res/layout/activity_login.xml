@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:actionBarNavMode="standard">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="80dp"
+        android:text="登陆系统"
+        android:textSize="20pt" />
+
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/bg_1"
+        android:drawableLeft="@drawable/user"
+        android:hint="用户名"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:textColor="#FFAD33"
+        android:textSize="16sp"
+
+
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/user"
+        android:background="@drawable/bg_1"
+        android:drawableLeft="@drawable/password"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/password"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_color_change"
+        android:text="登录"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/password"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/button_login"
+        android:background="@drawable/button_color_change"
+        android:text="注册"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_transplant"
+        android:layout_width="60dp"
+        android:layout_height="18dp"
+        android:layout_below="@id/button_login"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="89dp"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="550sp"
+        android:text="@string/zhucexieyi"
+
+        android:textSize="20dp" />
+</RelativeLayout>

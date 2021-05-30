@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="80dp"
+    android:paddingBottom="80dp"
+    android:background="@drawable/mian_picture"
+    android:orientation="vertical"
+    >
+<!--    第一行线性布局-->
+    <LinearLayout
+        android:id="@+id/first_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/word"
+            android:background="@drawable/textview_1_color_change"
+            android:text="@string/textview_1" />
+
+
+        <TextView
+            android:id="@+id/textview_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/word"
+            android:background="@drawable/textview_2_color_change"
+            android:text="@string/textview_2" />
+
+        <TextView
+            android:id="@+id/textview_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/word"
+            android:background="@drawable/textview_3_color_change"
+            android:text="@string/textview_3" />
+    </LinearLayout>
+    <!--    第二行线性布局-->
+    <LinearLayout
+        android:id="@+id/second_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/word"
+            android:background="@drawable/textview_4_color_change"
+            android:text="@string/textview_4" />
+
+        <TextView
+            android:id="@+id/textview_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/word"
+            android:background="@drawable/textview_5_color_change"
+            android:text="@string/textview_5" />
+
+        <TextView
+            android:id="@+id/textview_6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/word"
+            android:background="@drawable/textview_6_color_change"
+            android:text="@string/textview_6" />
+    </LinearLayout>
+<!--第三行线性布局-->
+    <LinearLayout
+        android:id="@+id/third_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/textview_7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/word"
+            android:background="@drawable/textview_7_color_change"
+            android:text="@string/textview_7"/>
+
+        <TextView
+            android:id="@+id/textview_8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/word"
+            android:background="@drawable/textview_8_color_change"
+            android:text="@string/textview_8" />
+        <TextView
+            android:id="@+id/textview_9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/word"
+            android:background="@drawable/textview_9_color_change"
+            android:text="@string/textview_9"/>
+    </LinearLayout>
+
+
+</LinearLayout>

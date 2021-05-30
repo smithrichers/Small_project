@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Small_project</string>
+    <string name="zhucexieyi"><u>版权所有:smithrichers@lxj.gmail</u></string>
+    <string name="textview_1">时间</string>
+    <string name="textview_2">天气</string>
+    <string name="textview_3">日历</string>
+    <string name="textview_4">阅读</string>
+    <string name="textview_5">音乐</string>
+    <string name="textview_6">相册</string>
+    <string name="textview_7">定位</string>
+    <string name="textview_8">电话簿</string>
+    <string name="textview_9">备忘录</string>
+
+</resources>

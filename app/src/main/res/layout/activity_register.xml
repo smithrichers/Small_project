@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_bg"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册系统"
+        android:textSize="20pt"
+        android:layout_margin="80dp"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/register_user"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:paddingLeft="10dp"
+        android:hint="请输入用户名："
+        android:maxLines="1"
+        android:inputType="text"
+        android:textColor="#FFAD33"
+        android:textSize="16sp"
+        android:background="@drawable/bg_1"
+        android:drawableLeft="@drawable/user"
+        />
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/register_user"
+        android:paddingLeft="10dp"
+        android:hint="请输入密码:"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:background="@drawable/bg_1"
+        android:drawableLeft="@drawable/password"/>
+    <EditText
+        android:id="@+id/register_password_sure"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/register_password"
+        android:paddingLeft="10dp"
+        android:hint="请确认密码:"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:background="@drawable/bg_1"
+        android:drawableLeft="@drawable/password"/>
+    <Button
+        android:id="@+id/register_login"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="确认"
+        android:textSize="20dp"
+        android:background="#f71818"
+        android:layout_below="@+id/register_password_sure"
+        android:onClick="onClick"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="80dp" />
+    <Button
+        android:id="@+id/register_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="取消"
+        android:textSize="20dp"
+        android:background="#1cf718"
+        android:layout_below="@+id/register_password_sure"
+        android:onClick="onClick"
+        android:layout_toRightOf="@+id/register_login"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="80dp" />
+
+
+</RelativeLayout>
